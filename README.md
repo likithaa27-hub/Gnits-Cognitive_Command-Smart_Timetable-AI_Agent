@@ -18,11 +18,17 @@ This week focused on creating a strong technical base so that Google Calendar in
 For this project, we are going to  use  the following technologies and tools:
 
 -Python – Main programming language used to build the application logic.
+
 -Streamlit – Used to create the web-based user interface for the AI Smart Timetable Agent.
+
 -Google Calendar API (google-api-python-client) – Used to integrate and interact with Google Calendar for event management.
+
 -Google Authentication Libraries (google-auth, google-auth-oauthlib, google-auth-httplib2) – Used to securely authenticate users and connect to Google services.
+
 -LangChain – Used to build the AI-powered conversational agent and manage AI workflows.
+
 -langchain-google-genai – Used to connect LangChain with Google’s Generative AI models.
+
 -python-dotenv – Used to manage environment variables securely, such as API keys and credentials.
 
 
