@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("AI Smart Timetable Agent")
 
-st.write("Week 1: Project Setup Completed")
+st.write("Week 1: Project Setup Completed And Tested")
 
 event = st.text_input("Enter event name")
 
