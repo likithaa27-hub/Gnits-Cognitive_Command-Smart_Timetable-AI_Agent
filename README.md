@@ -30,5 +30,3 @@ For this project, we are going to  use  the following technologies and tools:
 
 -python-dotenv – Used to manage environment variables securely, such as API keys and credentials.
 
-hlo
-okk hi
