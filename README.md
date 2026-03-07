@@ -7,7 +7,6 @@ Domain Focus: Productivity Technology & Calendar Management
  Core Skills: Calendar API integration, scheduling algorithms, conflict resolution, time management automation, conversational agents
 
 
-
 ## Week 1 Progress
 In Week 1, we set up the foundation for the Smart Timetable Assistant AI Agent Development Project. I created a public GitHub repository and structured the project properly with essential files like the main application file, requirements file, README, and gitignore file.
 I installed Git and configured it with GitHub to manage version control. I set up the development environment using Python and VS Code and installed all required libraries such as Streamlit, Google API libraries, and LangChain.
