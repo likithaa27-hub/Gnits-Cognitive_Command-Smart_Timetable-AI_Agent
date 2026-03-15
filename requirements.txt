@@ -6,3 +6,4 @@ google-auth-httplib2
 langchain
 langchain-google-genai
 python-dotenv
+requests
