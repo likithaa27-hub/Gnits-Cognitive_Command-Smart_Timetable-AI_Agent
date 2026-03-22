@@ -51,3 +51,10 @@ A basic conflict detection feature was developed to identify overlapping events.
 Additionally, a simple free time finder feature was introduced to show available time slots. This helps users quickly identify when they are free for planning other activities.
 
 We also improved the user interface using Streamlit components to make the application more structured and user-friendly. Unnecessary files and complex code were removed to keep the project clean and easy to maintain.
+## Week 4 Progress
+
+In Week 4, we enhanced the application by adding a conversational scheduling assistant. The system can now process basic natural language queries such as finding free time, viewing events, and checking assignments.
+
+We integrated event management and assignment tracking with the assistant, allowing users to interact with the system more intuitively. This improved the usability and made the application behave like a simple AI-based scheduling agent.
+
+The assistant can now respond to queries and provide relevant information based on stored data, completing the core scheduling functionality of the project.
