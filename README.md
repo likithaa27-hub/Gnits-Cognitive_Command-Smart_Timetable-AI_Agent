@@ -41,7 +41,6 @@ Additionally, functionality was implemented to allow users to create new calenda
 
 This week focused on building the core calendar integration and authentication workflow, enabling the application to interact with Google Calendar and manage events dynamically. This establishes the foundation required for implementing AI-powered scheduling and smart timetable generation in the upcoming weeks.
 ## Week 3 Progress
-Week 3 Progress
 
 In Week 3, we focused on simplifying the application by removing the Google Calendar authentication and API integration. This helped reduce complexity and allowed us to concentrate on building the core scheduling features of the system.
 
