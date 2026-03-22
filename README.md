@@ -40,3 +40,15 @@ The Streamlit application was enhanced to connect with the Google Calendar API a
 Additionally, functionality was implemented to allow users to create new calendar events through the Streamlit interface. Users can enter the event title, date, and time, and the application automatically adds the event to their Google Calendar.
 
 This week focused on building the core calendar integration and authentication workflow, enabling the application to interact with Google Calendar and manage events dynamically. This establishes the foundation required for implementing AI-powered scheduling and smart timetable generation in the upcoming weeks.
+## Week 3 Progress
+Week 3 Progress
+
+In Week 3, we focused on simplifying the application by removing the Google Calendar authentication and API integration. This helped reduce complexity and allowed us to concentrate on building the core scheduling features of the system.
+
+We implemented a manual event management system where users can add events using simple input fields. The events are temporarily stored and displayed within the application interface.
+
+A basic conflict detection feature was developed to identify overlapping events. When a user tries to add an event at a time that already exists, the system displays a warning message to prevent scheduling conflicts.
+
+Additionally, a simple free time finder feature was introduced to show available time slots. This helps users quickly identify when they are free for planning other activities.
+
+We also improved the user interface using Streamlit components to make the application more structured and user-friendly. Unnecessary files and complex code were removed to keep the project clean and easy to maintain.
