@@ -43,3 +43,52 @@ if st.button("Check Free Time"):
     st.write("You are free at:")
     st.write("• 2 PM – 4 PM")
     st.write("• 6 PM – 8 PM")
+    st.subheader("🤖 Smart Assistant")
+
+st.subheader("🤖 Smart Assistant")
+
+user_query = st.text_input("Ask something (e.g., 'free time', 'add event')")
+
+if user_query:
+    query = user_query.lower()
+
+    # Free time
+    if "free" in query:
+        st.success("You are free at 2 PM - 4 PM")
+
+    # Events
+    elif "event" in query:
+        if st.session_state.events:
+            st.write("📌 Your Events:")
+            for e in st.session_state.events:
+                st.write(f"{e[0]} at {e[1]}")
+        else:
+            st.info("No events scheduled")
+
+    # Assignments
+    elif "assignment" in query:
+        if st.session_state.assignments:
+            st.write("📚 Your Assignments:")
+            for a in st.session_state.assignments:
+                st.write(f"{a[0]} - Due: {a[1]}")
+        else:
+            st.info("No assignments added")
+
+    # Help
+    else:
+        st.warning("Try asking: free time / events / assignments")
+
+if "assignments" not in st.session_state:
+    st.session_state.assignments = []
+
+task = st.text_input("Enter assignment name")
+deadline = st.text_input("Enter deadline")
+
+if st.button("Add Assignment"):
+    st.session_state.assignments.append((task, deadline))
+    st.success("Assignment added successfully")
+
+st.subheader("📖 Your Assignments")
+
+for a in st.session_state.assignments:
+    st.write(f"{a[0]} - Due: {a[1]}")
