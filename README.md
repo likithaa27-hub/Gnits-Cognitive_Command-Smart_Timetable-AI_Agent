@@ -58,3 +58,6 @@ In Week 4, we enhanced the application by adding a conversational scheduling ass
 We integrated event management and assignment tracking with the assistant, allowing users to interact with the system more intuitively. This improved the usability and made the application behave like a simple AI-based scheduling agent.
 
 The assistant can now respond to queries and provide relevant information based on stored data, completing the core scheduling functionality of the project.
+
+## Week 5 Progress
+During Week 5, we enhanced the Smart Timetable AI Agent by implementing an Academic Schedule Management system focused on student productivity. We developed modules to manage courses, exams, and assignments using a structured database, along with automatic study plan generation based on upcoming exam schedules. A key feature added was the integration of Google Calendar using OAuth 2.0, enabling seamless synchronization of exam events with the user’s personal calendar. We also implemented basic conflict detection, workload alerts, and a simple smart assistant to handle user queries related to schedules and free time. Additionally, we maintained version control using GitHub to manage and update the project efficiently. These improvements made the system more practical, organized, and useful for academic planning.
