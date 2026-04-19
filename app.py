@@ -13,7 +13,10 @@ from datetime import datetime, timedelta
 import pandas as pd
 import matplotlib.pyplot as plt
 from groq import Groq
+from google_auth_oauthlib.flow import InstalledAppFlow
+from googleapiclient.discovery import build
 
+SCOPES = ['https://www.googleapis.com/auth/calendar']
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
 st.markdown("""
