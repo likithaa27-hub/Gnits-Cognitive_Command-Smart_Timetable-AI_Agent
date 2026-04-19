@@ -774,7 +774,7 @@ st.set_page_config(
 col_header_1, col_header_2 = st.columns([0.7, 0.3])
 
 with col_header_1:
-    st.markdown(f"<h1 style='margin-bottom: 0.5rem;'>📅 Smart Timetable AI</h1>", unsafe_allow_html=True)
+    st.markdown(f"<h1 style='margin-bottom: 0.5rem;'><span style='color: {TEXT_PRIMARY};'>📅</span> <span style='background: linear-gradient(135deg, {ACCENT_COLOR} 0%, #6366f1 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;background-clip: text;'>Smart Timetable AI</span></h1>", unsafe_allow_html=True)
     st.markdown(f"<p style='color: {TEXT_SECONDARY}; margin-top: 0; font-size: 16px;'>AI-powered academic planner with smart scheduling, conflict detection & analytics</p>", unsafe_allow_html=True)
 
 with col_header_2:
