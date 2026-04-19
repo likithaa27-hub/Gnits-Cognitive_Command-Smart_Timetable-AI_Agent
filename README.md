@@ -17,18 +17,24 @@ The primary goal of this project is to develop a smart assistant capable of inte
 
 ## 🏗️ Project Structure
 GNITS-COGNITIVE-COMMAND/
-├── .streamlit/            # Streamlit configuration and secrets
-│   ├── config.toml
-│   └── secrets.toml
-├── .venv/                 # Virtual environment (excluded from version control)
-├── app.py                 # Main application file
-├── app_clean.py           # Refactored/optimized version
-├── credentials.json       # Google API credentials
-├── token.json             # OAuth token (auto-generated)
-├── schedule.db            # SQLite database
-├── requirements.txt       # Project dependencies
-├── README.md              # Documentation
-└── .gitignore             # Ignored files
+│
+├── .streamlit/
+│ ├── config.toml
+│ └── secrets.toml
+│
+├── .venv/
+│
+├── app.py
+├── app_clean.py
+│
+├── credentials.json
+├── token.json
+│
+├── schedule.db
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
 
 ## ⚙️ Installation and Setup
 
