@@ -76,3 +76,7 @@ In Week 7, we focused on improving the user interface and enhancing the overall 
 The calendar module was enhanced with structured monthly, weekly, and daily views, and events such as exams, courses, and assignments were displayed using different colors for better clarity. Full edit and delete functionality was added for courses, exams, assignments, and personal events, allowing users to manage their schedules more efficiently. The dashboard was redesigned to display upcoming exams, pending assignments, and deadline notifications in a clean layout with card-based alerts for overdue and upcoming tasks.
 
 Additionally, we improved data presentation using styled tables, added CSV export functionality for assignments, and enhanced forms with better layout and input styling. Visual dividers and improved spacing were also introduced across pages to enhance readability. Overall, Week 7 focused on UI redesign, usability improvements, and feature refinement, making the Smart Timetable Assistant more polished, user-friendly, and ready for real-world usage.
+
+
+## Week 8 Progress
+In Week 8, we focused on transforming the Smart Timetable AI Agent into a production-ready application. The goal was to enhance usability, improve system reliability, integrate AI-based assistance, and prepare the project for final deployment and demonstration.
