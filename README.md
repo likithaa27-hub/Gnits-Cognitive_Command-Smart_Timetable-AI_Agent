@@ -15,26 +15,6 @@ The primary goal of this project is to develop a smart assistant capable of inte
 - Lightweight local database management using SQLite
 - REST API communication for external services
 
-## 🏗️ Project Structure
-GNITS-COGNITIVE-COMMAND/
-│
-├── .streamlit/
-│ ├── config.toml
-│ └── secrets.toml
-│
-├── .venv/
-│
-├── app.py
-├── app_clean.py
-│
-├── credentials.json
-├── token.json
-│
-├── schedule.db
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
 
 ## ⚙️ Installation and Setup
 
